@@ -1,17 +1,22 @@
 {
+  "name": "mlodzi-w-rownowadze.github.io",
+  "version": "1.0.0",
+  "description": "Młodzi w Równowadze project",
+  "main": "index.html",
+  "scripts": {
+    "initial": "bundle install && npm install && mkdir -p assets/vendor && cp -r node_modules/bootstrap assets/vendor/bootstrap && cp -r node_modules/bootstrap-icons assets/vendor/bootstrap-icons && mkdir -p assets/css && cp -r node_modules/bootstrap-icons/font/fonts assets/css/fonts",
+    "start": "bundle exec jekyll serve"
+  },
   "dependencies": {
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "sass": "^1.83.0"
   },
-  "name": "mlodzi-w-rownowadze.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "jekyll",
+    "mlodzi-w-rownowadze",
+    "website"
+  ],
+  "author": "The Młodzi w Równowadze Authors (https://github.com/Mlodzi-w-Rownowadze/mlodzi-w-rownowadze.github.io/graphs/contributors)",
+  "license": "MIT"
 }

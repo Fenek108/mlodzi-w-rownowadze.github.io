@@ -1,12 +1,14 @@
-$light-bg: #EDF1D6;
-$light-primary: #609966;
-$light-secondary: #8ED897;
-$light-tertiary: #407B49;
+$light-text: #0f1009;
+$light-bg: #edf1d5;
+$light-primary: #609a66;
+$light-secondary: #8dd896;
+$light-tertiary: #7bb886;
 
-$dark-bg: #2E3A2A;
-$dark-primary: #6D8A5B;
-$dark-secondary: #8ED897;
-$dark-tertiary: #407B49;
+$dark-text: #f5f6ef;
+$dark-bg: #262a0e;
+$dark-primary: #659f6b;
+$dark-secondary: #277230;
+$dark-tertiary: #478553;
 
 
 
@@ -15,7 +17,7 @@ $dark-tertiary: #407B49;
 
 // Light mode
 $body-bg: $light-bg;
-$body-color: $light-primary;
+$body-color: $light-text;
 $primary: $light-primary;
 $secondary: $light-secondary;
 
@@ -29,7 +31,7 @@ $link-color: $light-tertiary;
 
 // Dark mode
 $body-bg-dark: $dark-bg;
-$body-color-dark: $dark-primary;
+$body-color-dark: $dark-text;
 $primary-dark: $dark-primary;
 $secondary-dark: $dark-secondary;
 

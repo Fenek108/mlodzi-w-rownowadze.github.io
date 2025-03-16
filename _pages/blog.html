@@ -9,7 +9,7 @@ permalink: /blog
   {% for post in site.posts %}
     <li>
       <button class="btn btn-link" onclick="window.location.href='{{ post.url }}'">{{ post.title }}</button>
-      <small>{{ page.date | polish_date }}</small>
+      <small>{{ post.date | polish_date }}</small>
       <b>{{ post.author }}</b>
     </li>
   {% endfor %}
